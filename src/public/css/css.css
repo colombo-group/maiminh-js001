@@ -1,0 +1,59 @@
+* {
+  margin:0;
+  padding:0;
+}
+button {
+  padding: 10px;
+  margin:20px;
+}
+
+.left {
+  width:510px;
+  float:left;
+  padding: 30px;
+}
+.textbox {
+  height:200px;
+  width:500px
+}
+
+.right {
+  float:left;
+  padding: 30px;
+}
+.display {
+  width:600px;
+  height: 350px;
+  border: #852929 solid 1px;
+  font-size: 18px;
+  overflow: scroll;
+}
+.display li {
+  list-style: none;
+  width: 100%;
+  display: block;
+}
+.li-empty {
+  background-color: white;
+  color:black;
+}
+#mark li:nth-child(odd){
+  color: #fff;
+  background-color: lightgrey;
+}
+
+.right-bottom {
+  clear:both;
+  color: #000;
+}
+.right-bottom input[type='radio'] {
+  float:left;
+}
+.right-bottom li {
+  list-style: none;
+  /*float:left;*/
+}
+.disappear {
+  opacity:0.3;
+  background-color: #852929;
+}
